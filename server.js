@@ -11,7 +11,7 @@ const DATA_FILE = path.join(__dirname, 'data.json');
 const PUBLIC_DIR = path.join(__dirname, 'public');
 
 const ADMINS = [
-  { username: 'admin1', password: 'admin123' },
+  { username: 'MarTech', password: 'impact' },
   { username: 'admin2', password: 'admin123' },
   { username: 'host1', password: 'host123' },
 ];
