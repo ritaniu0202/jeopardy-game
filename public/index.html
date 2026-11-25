@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-<title>Jeopardy! Game Night</title>
+<title>MarTech Mix-Up</title>
 <style>
   :root{
     --blue:#060ce9; --blue-dark:#040a6e; --blue-deep:#02033a; --gold:#ffcc00; --gold-soft:#ffd94d;
@@ -128,7 +128,7 @@
 </head>
 <body>
 <div class="wrap">
-  <div class="logo">JEOPARDY<span>!</span></div>
+  <div class="logo">MarTech <span>Mix-Up</span></div>
   <div class="tagline">Game Night</div>
   <div id="app" style="margin-top:18px"></div>
 </div>
@@ -334,7 +334,7 @@ function renderAdmin(){
     <button class="danger" id="ad_end">End Game</button></div></div>` : ''}
   <div class="card plain" style="margin-bottom:14px">
     <label>🏷️ Game title / theme — shown on the host screen and on every player's phone. Set it before starting a game (optional; defaults to the template name).</label>
-    <input id="ad_title" placeholder="e.g. Martech Team Game Night 🎉" value="${esc(localStorage.getItem('j_gametitle') || '')}">
+    <input id="ad_title" placeholder="e.g. MarTech Mix-Up 🎉" value="${esc(localStorage.getItem('j_gametitle') || '')}">
   </div>
   <div class="card plain">
     <div class="topbar"><h3>Game Templates</h3><button id="ad_new">+ New Template</button></div>
